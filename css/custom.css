@@ -331,9 +331,8 @@ header .header-top .col-md-3 li:first-child a:hover {background-color: #74818d;o
 header .header-top .col-md-3 li:last-child a {color: #65b3e9;}
 .header-top .navbar-default .navbar-nav > .open > a,.header-top .navbar-default .navbar-nav > .open > a:hover,.header-top .navbar-default .navbar-nav > .open > a:focus {background-color: transparent;color: #82b91e;}
 
-header .login-box{display: none;}
-header .login-box {width:1080px; background: #74818d; color: #d3e0ea; padding-top: 30px; position: 
-	absolute;opacity: 0.98; top: 11.7%; left: 9%;right: 10%; z-index: 99;}
+header .login-box {display: none;width:1080px; background-color: #74818d; color: #d3e0ea; padding-top: 30px; position: 
+	absolute;opacity: 0.98; top: 70px; left: 9%;right: 10%; z-index: 99;}
 header .login-box .col-lg-4{border-right:1px solid #464e55; padding:0 70px;padding-bottom: 21px;}
 header .login-box .col-lg-4:first-child ul{margin-bottom: 40px;}
 header .login-box .col-lg-4:last-child{border-right: none;}
@@ -358,26 +357,11 @@ header .header-carousel .carousel-indicators li{margin-right: 5px;}
 
 .header-new {position: relative !important;}
 .header-new .navbar-brand{padding: 0px;}
+.header-new .navbar-brand img {width: 75px;}
 .header-new .navbar-default .navbar-nav li a{color: #7e7e7e;}
 .header-new .navbar-default .navbar-nav li a:hover,.header-new .navbar-default .navbar-nav li a:focus {color: #74b3e2;}
 
-header .about-header-top .navbar{margin-bottom: 15px;}
-header .about-header-top .container{padding: 0px;}
-header .about-header-top .col-md-2 img {width: 50%;}
-header .about-header-top .navbar-default {background-color: transparent;border-color: transparent;}
-header .about-header-top {background: transparent;width: 100%;}
-header .about-header-top .col-md-9 {padding: 0;}
-header .about-header-top .navbar-brand {padding: 0px;}
-header .about-header-top .navbar-collapse ul {margin-top: 30px;}
-header .about-header-top .navbar-collapse ul li{border-right: 1px solid #e5e5e5; color: #7e7e7e;}
-header .about-header-top .navbar-collapse ul li:last-child{border-right: 0; }
-header .about-header-top .navbar-collapse ul li:first-child{color: #c6def2;}
-header .about-header-top .navbar-nav > li > a {padding-top: 0;padding-bottom: 0;line-height: 12px;color: #505050;}
-header .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default 
-header .navbar-nav > .active > a:focus {background-color: transparent; color:#e5e5e5; }
-header .about-header-top .navbar-nav > li > a:hover{color: #65b3e9;}
-header .about-header-top .glyphicon-chevron-down {color: #8b8b8b;left: 5px;top: 3px;line-height: 0;}
-header .about-header-top .col-md-3 ul{margin-top: 28px;padding-left: 15px;}
+header .about-header-top .col-md-2 img {width: 75px;}
 /*************************************************************************************
 Homepage
 ************************************************************************************* */
@@ -520,7 +504,7 @@ techiprofile
 .techiProfileRow1 .btn-success {font-size: 24px;padding: 15px 35px;}
 .techiProfileRow1 p{color:#cbcaca; font-weight: 600;}
 .profileInfo ol li{color: #176198; list-style: inherit !important; display: list-item;}
-.techiprofile button, input, optgroup,{color: #fff}
+.techiprofile button, input, optgroup, select, textarea{color: #fff}
 
 
 /*************************************************************************************
@@ -566,7 +550,6 @@ createAccount
 .createAccountRow1 .form-group .btn-success{border: 0px; margin-bottom: 130px; margin-top: 30px; background-color: #f67334;}
 .createAccountRow1 .form-group .btn{padding: 15px 25px;}
 .createAccountRow1 .form-control::-moz-placeholder {color: #a9a9a9; text-transform: capitalize;}
-.createAccountRow1  #santance-case .form-control::-moz-placeholder{text-transform: none;}
 .createAccountRow1 .submit-form {border-color: #fff; font-size: 20px; padding:40px 120px;}
 
 .createAccountRow1 .techiProfileRow1{ width: 100%; padding: 35px 0px;}
@@ -578,9 +561,11 @@ createAccount
 .createAccountRow1 .techiProfileRow1 h5 span{color: #747474;}
 .createAccountRow1 .techiProfileRow1 h4 {color: #747474; font-weight: 600;}
 .createAccountRow1 .techiProfileRow1 .btn-success {font-size: 24px;padding: 15px 35px;}
+.createAccountRow1 .techiProfileRow1 p{color:#cbcaca; font-weight: 600;}
 .createAccountRow1 .profileInfo ol li{color: #176198; list-style: inherit !important; display: list-item;}
-.createAccountRow1 .techiprofile button {color: #fff;}
-.createAccountRow1 .techiprofileRow1 .profileInfo textarea{border: none; color: #999999; width: 100%;}
+.createAccountRow1 .techiprofile button optgroup, select, textarea{color: #fff;}
+.createAccountRow1 .techiprofile button, input, optgroup, select, textarea #project-detail{color: #999999; border: none;}
+.createAccountRow1 .form-group .workseeker input#project-detail{width: 80%;}
 .createAccountRow1 .form-control {box-shadow: none;border-radius: 0px; border:none;border-bottom: 1px solid #c8c8c8; padding-left: 0px;}
 .createAccountRow1 .techiProfileRow1 .dropdown{border-bottom: 1px solid #c8c8c8; position: absolute; width: 100%;}
 .createAccountRow1 .techiProfileRow1  #dropdown-menu-relative{position: relative !important;}
@@ -588,7 +573,7 @@ createAccount
 
 
 /*************************************************************************************
-hire a techi 
+hire a techie 
 ************************************************************************************* */
 
 .hireTechieRow2 .select-categry a{color: #d4d4d4 !important;}
@@ -612,7 +597,7 @@ medium desktop
 
 @media only screen and (min-width: 1024px )and (max-width: 1280px){
   header .header-top .navbar-nav > li > a{font-size: 14px; padding: 0px 10px;}
-  header .login-box {width:95%; left: 2%; top:8%; opacity: 1;}
+  header .login-box {width:95%; left: 25px; opacity: 1;}
   header .header-top .col-md-3 li:first-child a:hover {opacity: 1;}
   .header-top .container{padding-right: 0px;}
   .contactUsRow1-caption #btn-first{margin-top: 28px;}
@@ -632,10 +617,10 @@ medium desktop
 Tablets
 ************************************************************************************* */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-  header .header-top .navbar-nav > li > a{font-size: 13px; padding: 0px 7px;}
+  header .header-top .navbar-nav > li > a{font-size: 13px; padding: 0px 6px;}
   header .header-top .col-md-3 li:first-child a{padding: 0px;}
 
-  header .login-box {width:90%; left: 5%; top:6%; opacity: 1;}
+  header .login-box {width:90%; left: 5%; opacity: 1;}
   header .header-top .col-md-3 li:first-child a:hover {opacity: 1;}
   header .login-box .container{width:100%;}
   header .login-box .col-lg-4{padding: 0px 20px 17px;}
@@ -647,7 +632,6 @@ Tablets
   .header-top .container{padding-right: 0px;}
   .header-top ul li a{padding:0px 2px;}
   .header-top .col-sm-3{padding: 0px;}
-  .about-header-top .row{margin: 0px !important;}
   .navbar-header{width: 22%;}
   .homeRow1 .col-md-4{width:31%; padding: 25px;}
   .homeRow1 .col-md-6{margin-bottom: 30px;}
@@ -669,12 +653,12 @@ Tablets
   .homeRow3 .homeRow3-right img{margin-left: 15px !important;}
   .homeRow3 .homeRow3-right h3{margin: 0 0 39px 67px;}
   footer{padding: 0px; margin:0px 10px;}
+  footer .row{margin-right: 0;}
   footer .container{padding: 0px;}
   footer ul{padding: 0px; }
   footer ul li {font-size: 12px;}
-  footer .col-sm-1{margin-top: 0px; padding-left: 5px;}
   footer p{font-size: 12px; font-family:"Lato-Regular"; padding-left: 15px;}
-  footer .col-sm-1{padding-right: 0px; padding-left: 0px; padding-top: 7px;}
+  footer .col-sm-1{padding: 7px 0px 0 5px; margin-top:0px; }
 
   .contactUsRow1-caption{width: 90%; margin: 65px 0px 0px; left: 5%;}
   .contactUsRow1-caption #btn-first{margin-top: 28px;}
@@ -693,14 +677,14 @@ Tablets
 
   .padding-75-l{padding-left: 62px;}
   .padding-135-l{padding-left: 125px;}
-  .createAccountRow1 h3{margin-top: 5px;}
   .workseeker .col-sm-4 .com-sm-12{padding: 0px;}
   .techiProfileRow1 .push-30-r{margin-right: 0px;}
+  .techiProfileRow1 .profileInfo{padding: 20px !important;}
+  .createAccountRow1 h3{margin-top: 5px;}
   .createAccountRow1 .form-group .workseeker input{width:140px;}
   .createAccountRow1 .techiProfileRow1 .dropdown{width:140px;}
   .createAccountRow1 .workseeker #homeRow2-detail-label{text-align: left;}
-  .createAccountRow1 .techiProfileRow1 .profileInfo{min-height: 482px;}
-  .techiProfileRow1 .profileInfo{padding: 20px !important;}
+
 
   .hireTechieRow2 .logoRow1 .left-logo{padding:20px;}
   .hireTechieRow2 .logoRow1 .right-logo{padding:10px; margin-top: 25px;}
@@ -743,7 +727,7 @@ Mobiles
   header .header-top .navbar-collapse ul {margin-top: 20px;}
   header .header-top .navbar-nav > li > a {color: gray;}
   header .header-new .navbar-brand > img{width:55px;}
-  header .carousel-caption {position: inherit;background-color: #000;opacity: 0.8;margin-top: 20px;padding: 20px 0 40px;}
+  header .carousel-caption {position: inherit;background-color: #000;opacity: 0.8;padding: 20px 0 40px;}
   header .carousel-caption h2 {font-family: 'Lato-Bold';margin-bottom: 40px;font-size: 6vw;}
   header .carousel-caption button {background-color: transparent;font-size: 20px;width: 260px; padding:5px 30px;
    border: 1px solid #FFF;border-radius: 3px;outline: 0; margin:10px auto;}
@@ -756,12 +740,11 @@ Mobiles
   .navbar-header .mobile-login a{width:20%;}
   header .header-top .col-xs-6 #login-hover:hover{background-color: #74818d; padding-bottom: 20%; padding-top: 5%;}
   header .header-top #phoneNo{color: #65b3e9;}
-  header .login-box{width:93%; left: 11px; top: 112px; opacity: 1;}
+  header .login-box{width:93%; left: 11px; top: 92px; opacity: 1;}
   header .login-box label{text-align: center; font-size: 18px;}
   header .login-box .col-lg-4{ padding: 0px 50px 20px; border-right:none;}
   header .login-box ul{padding-left: 0px;}
   header .header-top .navbar-nav > li > a{line-height: 25px;}
-  header .about-header-top .col-md-2 img {width: 30%;}
   header .about-header-top .col-xs-12 ul {float: none !important; padding: 0;}
   .about-header-top .push-30-t {margin-top: 10px;}
   .homeRow1{padding: 50px 15px;}
@@ -797,6 +780,7 @@ Mobiles
   .homeRow3 .col-md-6 #invertedComma {margin-right: 10px;}
   .homeRow3 .col-md-6 .homeRow3-glyphicon{width: 100%;}
   footer{padding: 10px 0px 20px; margin: 0px; font-size: 12px;}
+  footer .row {margin: 0;}
   footer .col-md-4{padding-left: 0px;}
   footer p{padding-left:15px;}
   footer .col-xs-12 ul{padding:0px 15px 10px; margin-bottom: 0px; float: left !important;}
@@ -854,16 +838,14 @@ Mobiles
 
 .createAccountRow1 .submit-form{padding: 20px;}
 .createAccountRow1 .form-group #email{width:100%;}
-.createAccountRow1 .form-group .workseeker input{width:190px; margin-bottom: 20px;}
-.createAccountRow1 .techiProfileRow1 .dropdown{width:190px;}
+.createAccountRow1 .form-group .workseeker input{width:150px; margin-bottom: 20px;}
+.createAccountRow1 .techiProfileRow1 .dropdown{width:150px;}
 .createAccountRow1 .form-group input{width:100%;}
-.createAccountRow1 .form-group .btn-success{margin-bottom:70px; margin-top: 0px;}
+.createAccountRow1 .form-group .btn-success{margin-bottom:10px; margin-top: 0px;}
 .createAccountRow1 .push-30-r{margin-right: 0px;}
 .createAccountRow1 .workseeker #homeRow2-detail-label{text-align: left;}
 .createAccountRow1 #text-xs-left{text-align: left;}
 .createAccountRow1 .techiProfileRow1 img {padding-right: 10px;}
-.createAccountRow1 #workseeker .techiProfileRow1 .col-xs-3{width:65px;}
-.createAccountRow1 .techiProfileRow1 .profileInfo{min-height: 300px;}
 
 
 
@@ -880,14 +862,14 @@ Mobiles
 }
 @media only screen and (min-width: 640px) and (max-width: 767px){
   
-  header .login-box{left: 11px; top: 30.4%; opacity: 1;}
+  header .login-box{left: 11px; opacity: 1;}
   .contactUsRow1-caption .col-md-1{ padding-right: 0px; padding-left: 6px;}
   .homeRow2-detail .tab-content .col-xs-12{width: 50%;}
   .homeRow2-detail .col-xs-2{width:7.7%;}
 }
 @media only screen and (min-width: 480px) and (max-width: 639px) {
 
-  header .login-box{left: 11px; top: 35%; opacity: 1;}
+  header .login-box{left: 11px; opacity: 1;}
   .homeRow1 .col-md-4 img{width:12%;}
   .homeRow1 .col-md-4 button{width:280px;}
   .homeRow2-detail .col-xs-12{margin-bottom: 15px;}
