@@ -302,6 +302,7 @@ span img {padding: 0px 10px;}
 }
 .createAccount-dropdown-color{color: #cbcaca !important;}
 .bg-hiredevloper{background-color: #ebebeb;}
+.text-red{color:#e84933;}
 .blue-regular {color: #0467aa;}
 .blue-light {color: #3995c0 !important;}
 .orange-dark {color: #ec802b;}
@@ -331,7 +332,7 @@ header .header-top .col-md-3 li:first-child a:hover {background-color: #74818d;o
 header .header-top .col-md-3 li:last-child a {color: #65b3e9;}
 .header-top .navbar-default .navbar-nav > .open > a,.header-top .navbar-default .navbar-nav > .open > a:hover,.header-top .navbar-default .navbar-nav > .open > a:focus {background-color: transparent;color: #82b91e;}
 
-header .login-box {display: none;width:1080px; background-color: #74818d; color: #d3e0ea; padding-top: 30px; position: 
+header .login-box {display: none; width:1080px; background-color: #74818d; color: #d3e0ea; padding-top: 30px; position: 
 	absolute;opacity: 0.98; top: 70px; left: 9%;right: 10%; z-index: 99;}
 header .login-box .col-lg-4{border-right:1px solid #464e55; padding:0 70px;padding-bottom: 21px;}
 header .login-box .col-lg-4:first-child ul{margin-bottom: 40px;}
@@ -486,7 +487,6 @@ contactUs
 .contactUsRow1-caption .form-group input{border-left:0px;border-right:0px; font-size: 11px; }
 .contactUsRow1-caption .input-group-addon {color: #d7dfe1 !important; font-size: 13px; width: 35px;}
 .contactUsRow1-caption .input-group-addon#edit{padding: 0px;}
-.contactUsRow1-caption .input-group-addon span{color: #e84933 !important;}
 .contactUsRow1-caption .input-group {width: 100%;}
 .contactUsRow1-caption .input-group-addon img{margin-top: -38px; margin-left:1px;width:35px;}
 .contactUsRow1-caption .col-lg-1 {position: absolute; z-index: 10;border: 0;background-color: transparent; padding-right: 23px;}
@@ -597,8 +597,8 @@ medium desktop
 
 @media only screen and (min-width: 1024px )and (max-width: 1280px){
   header .header-top .navbar-nav > li > a{font-size: 14px; padding: 0px 10px;}
-  header .login-box {width:95%; left: 25px; opacity: 1;}
   header .header-top .col-md-3 li:first-child a:hover {opacity: 1;}
+  header .login-box {width:95%; left: 2.5%; opacity: 1;}
   .header-top .container{padding-right: 0px;}
   .contactUsRow1-caption #btn-first{margin-top: 28px;}
   .contactUsRow1-caption .input-group-addon img{margin-top: -19px;}
@@ -619,12 +619,10 @@ Tablets
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   header .header-top .navbar-nav > li > a{font-size: 13px; padding: 0px 6px;}
   header .header-top .col-md-3 li:first-child a{padding: 0px;}
-
-  header .login-box {width:90%; left: 5%; opacity: 1;}
+  header .login-box {width:94%; left: 3%; opacity: 1;}
   header .header-top .col-md-3 li:first-child a:hover {opacity: 1;}
   header .login-box .container{width:100%;}
   header .login-box .col-lg-4{padding: 0px 20px 17px;}
-  header .login-box .col-lg-4:first-child{padding-bottom: 45px;}
   header .header-top .col-sm-3 li:first-child a {color: #e68556;padding:30px 4px 30px;}
   header .header-carousel .carousel-caption button{padding: 7px 14px;}
   header .header-carousel .carousel-caption h2{margin-bottom: 30px;}
@@ -672,6 +670,7 @@ Tablets
   
   .search-resumeRow1 {padding: 40px 0 0;}
   .search-resumeRow1 .techie-list {width: 55%;}
+  .search-resumeRow1 .search-resume-btn {padding: 0;}
   .search-resumeRow1 .resume-box {margin-right: 25px;width: 31%;}
   .search-resumeRow1 .resume-box .green-regular {float: left !important; margin-top: 10px;}
 
@@ -679,12 +678,11 @@ Tablets
   .padding-135-l{padding-left: 125px;}
   .workseeker .col-sm-4 .com-sm-12{padding: 0px;}
   .techiProfileRow1 .push-30-r{margin-right: 0px;}
-  .techiProfileRow1 .profileInfo{padding: 20px !important;}
+  .techiProfileRow1 .profileInfo{padding: 20px !important; min-height: 310px;}
   .createAccountRow1 h3{margin-top: 5px;}
   .createAccountRow1 .form-group .workseeker input{width:140px;}
   .createAccountRow1 .techiProfileRow1 .dropdown{width:140px;}
   .createAccountRow1 .workseeker #homeRow2-detail-label{text-align: left;}
-
 
   .hireTechieRow2 .logoRow1 .left-logo{padding:20px;}
   .hireTechieRow2 .logoRow1 .right-logo{padding:10px; margin-top: 25px;}
@@ -729,18 +727,17 @@ Mobiles
   header .header-new .navbar-brand > img{width:55px;}
   header .carousel-caption {position: inherit;background-color: #000;opacity: 0.8;padding: 20px 0 40px;}
   header .carousel-caption h2 {font-family: 'Lato-Bold';margin-bottom: 40px;font-size: 6vw;}
-  header .carousel-caption button {background-color: transparent;font-size: 20px;width: 260px; padding:5px 30px;
-   border: 1px solid #FFF;border-radius: 3px;outline: 0; margin:10px auto;}
+  header .carousel-caption button {background-color: transparent;font-size: 20px;width: 260px; padding:5px 30px;border: 1px solid #FFF;border-radius: 3px;outline: 0; margin:10px auto;}
   header .button-blue {margin-right: 15px;}
   header .btn:hover,header .carousel-caption .btn:focus,header .carousel-caption .btn.focus {background-color: #0a598d; color: #FFF;outline: 0;border: 1px solid #FFF;}
-  .navbar-header .col-xs-12{padding: 10px 0px 0px 10px;}
-  .header-top .col-xs-12{padding-left:10px; padding-right:20px; }
-  .navbar-default .navbar-collapse, .navbar-default .navbar-form{border:none;}
-  .header-top #login-hover{color: #e68556;}
-  .navbar-header .mobile-login a{width:20%;}
+  header .navbar-header .col-xs-12{padding: 10px 0px 0px 10px;}
+  header .header-top .col-xs-12{padding-left:10px; padding-right:20px; }
+  header .navbar-default .navbar-collapse, .navbar-default .navbar-form{border:none;}
+  header .header-top #login-hover{color: #e68556;}
+  header .navbar-header .mobile-login a{width:20%;}
   header .header-top .col-xs-6 #login-hover:hover{background-color: #74818d; padding-bottom: 20%; padding-top: 5%;}
   header .header-top #phoneNo{color: #65b3e9;}
-  header .login-box{width:93%; left: 11px; top: 92px; opacity: 1;}
+  header .login-box{width:93%; left: 3.5%; top: 92px; opacity: 1;}
   header .login-box label{text-align: center; font-size: 18px;}
   header .login-box .col-lg-4{ padding: 0px 50px 20px; border-right:none;}
   header .login-box ul{padding-left: 0px;}
@@ -802,10 +799,10 @@ Mobiles
   .contactUsRow1-caption .input-group-addon img{margin-top: -19px}
   .contactUsRow1-caption h3{padding: 0px;}
   .contactUsRow1-caption .container .col-lg-6{padding-left: 15px;}
-  .contactUsRow1-caption .col-lg-1{padding-right: 0px;}
 
   .techiProfileRow1 img{width: 270px;}
-  .createAccountRow1 .techiProfileRow1 img{padding-right: 0px;}
+  .techiProfileRow1 .profileInfo{padding: 15px;}
+  .techiProfileRow1 .btn-success {margin-bottom: 30px;}
   .techiProfileRow1 .techiProfile-left { padding-bottom: 30px;}
   .techiProfileRow1 .mobile-border-t {padding-top: 30px; border-top: 1px solid #E9E9E9;}
 
@@ -835,7 +832,6 @@ Mobiles
 .createAccountRow1 .row{margin: 0px;}
 .createAccountRow1 .form-group .workseeker input{ margin-bottom: 20px; margin-right: 0px;}
 .createAccountRow1 .form-group .workseeker input span{float: right;}
-
 .createAccountRow1 .submit-form{padding: 20px;}
 .createAccountRow1 .form-group #email{width:100%;}
 .createAccountRow1 .form-group .workseeker input{width:150px; margin-bottom: 20px;}
@@ -846,8 +842,6 @@ Mobiles
 .createAccountRow1 .workseeker #homeRow2-detail-label{text-align: left;}
 .createAccountRow1 #text-xs-left{text-align: left;}
 .createAccountRow1 .techiProfileRow1 img {padding-right: 10px;}
-
-
 
 .hireTechieRow1 h1{ font-size: 22px;}
 .hireTechieRow2 .padding-75-l{padding-left: 15px;}
@@ -861,9 +855,8 @@ Mobiles
 
 }
 @media only screen and (min-width: 640px) and (max-width: 767px){
-  
-  header .login-box{left: 11px; opacity: 1;}
   .contactUsRow1-caption .col-md-1{ padding-right: 0px; padding-left: 6px;}
+  .contactUsRow1-caption .col-md-1 span {float: none !important;}
   .homeRow2-detail .tab-content .col-xs-12{width: 50%;}
   .homeRow2-detail .col-xs-2{width:7.7%;}
 }
@@ -882,7 +875,6 @@ Mobiles
   .techiProfileRow1 h2{font-size: 18px !important;}
   .techiProfileRow1 .push-50-l{margin-left: 0px !important;}
   .techiProfileRow1 .profileInfo{padding: 15px !important;}
-  .contactUsRow1-caption .col-lg-1 {padding-left: 45px;}
   
   .hireTechieRow2 .logoRow4 .right-logo{ width:50%;}
   .hireTechieRow2 .hireTechilogo{width: 70%; left:15%; }
@@ -890,7 +882,6 @@ Mobiles
 }
 
 @media only screen and (min-width: 414px) and (max-width: 479px){
-    .contactUsRow1-caption .col-lg-1 {padding-left: 35px;}
     .hireTechieRow2 .logoRow1 .right-logo{margin-top: 20px; width:40%;}
     .hireTechieRow2 .logoRow4 .right-logo{ width:40%;}
 }
