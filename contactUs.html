@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Findmetechie</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="keywords" content="" />
+	<meta name="description" content="">
+	<!-- Mobile Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- plugin CSS -->
+	<link rel="stylesheet" href="plugin/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="plugin/jquery/jquery-ui.css">
+	<link rel="stylesheet" href="css/custom.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<script src="plugin/jquery/jquery-2.1.4.min.js"></script>
+	<script src="plugin/bootstrap/js/bootstrap.min.js"></script>
+	<!-- Common JS Initialization Files -->
+	<script src="plugin/jquery/init.js" charset="UTF-8"></script>
+	<script type="text/javascript">
+		function show_hover() {
+			$('.login-box').show();
+		}
+		function hide_hover() {
+			$('.login-box').hide();
+		}
+	</script>
+</head>
+<body>
+	<header>
+		<div class="row header-top header-new bg-white remove-margin">
+			<div class="container">
+				<div class="col-md-9 col-lg-9 col-sm-9">
+					<nav class="navbar navbar-default">
+				    <div class="navbar-header">
+				      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				      </button>
+				      <a class="navbar-brand col-lg-12 col-xs-6 col-sm-7 col-md-12" href="#">
+				      	<img src="images/logo2.png" alt="Logo"></a>
+				    </div>
+				    <div class="col-xs-6 visible-xs-block text-uppercase">
+				    	<a href="#" onMouseOver="show_hover()" onMouseFocus="show_hover()" onMouseOut="hide_hover()" id="login-hover">Login</a>
+				    </div>  
+				    <div class=" col-xs-6 hidden-sm hidden-md hidden-lg">
+				      <a href="#" class="push-5-r pull-right" id="phoneNo">+1-408-850-0236</a>
+				    </div>
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				      <ul class="nav navbar-nav navbar-right">
+				        <li ><a href="#">Hire a Techie</a></li>
+				        <li><a href="#">Build Your Own Team</a></li>
+				        <li><a href="#">Search Resumes</a></li>
+				        <li class="dropdown">
+				          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Technology <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span></a>
+				          <ul class="dropdown-menu">
+				            <li><a href="#">Ruby on Rails</a></li>
+				          </ul>
+				        </li>
+				      </ul>
+				    </div><!-- /.navbar-collapse -->
+					</nav>
+				</div>
+				<div class="col-md-3 col-lg-3 col-sm-3 hidden-xs">
+					<ul>
+			      <li class="text-uppercase "><a href="#" onMouseOver="show_hover()" onMouseOut="hide_hover()">Login</a></li>
+			      <li class="pull-right"><a href="#">+1-408-850-0236</a></li>
+		      </ul>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<!-- Top header End-->
+		<div class="login-box">
+			<div class="container">
+				<div class="col-lg-4 col-md-4 col-sm-4">
+					<ul>
+						<label>Quick Link </label>
+						<li><a href="#">Hire a developer</a></li>
+						<li><a href="#">Apply as a developer</a></li>
+						<li><a href="#">Build your own team</a></li>
+						<li><a href="#">Search Resumes</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4">
+					<form class="form-group">
+						<label>New Customer</label>
+						<p> New to Find me techie Create an acccount to get started today. </p>
+						<input type="submit" name="login-button" value="Create New Account" class="btn btn-defoult">
+					</form>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4">
+					<form method="post" action="" class="form-group">
+						<label>Sign In</label>
+						<input type="email" name="login-mail" class="form-control">
+						<input type="password" name="login-pass" class="form-control">
+						<label><a href="">Forgot Your Password?</a></label><br>
+						<input type="submit" name="login-button" value="Sign In" class="btn btn-defoult">
+					</form>
+				</div>	
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		
+	</header>
+	<!-- header end -->
+	<!--content-->
+	<content>
+		<div class="row remove-margin move">
+			<div class="contactUsRow1-caption">
+				<div class="container">
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+						<span class="glyphicon glyphicon-map-marker " id="contactUs-glyphicon-logo-left"></span>
+						<h2 class="text-uppercase">india office</h2>
+						<h3>Delhi Office</h3>
+						<p>	5th Floor, SB Tower,<br>
+							Sector-16A, Noida– 201301.<br>
+							+91 882.6680.644
+						</p>
+						<input type="button" class="btn btn-success text-capitalize" value="view map" id="btn-first">
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+						<span class="glyphicon glyphicon-envelope" id="contactUs-glyphicon-logo-right"></span>
+						<h4>Send a Message</h4>
+						<div class="form-group">
+							<div class="input-group">
+								<div class="input-group-addon glyphicon glyphicon-user"></div>
+								<input type="text" class="form-control" id="exampleInputAmount" placeholder="Name">
+								<div class="input-group-addon"><span>.</span></div>
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="input-group">
+								<div class="input-group-addon glyphicon glyphicon-phone"></div>
+								<input type="text" class="form-control" id="exampleInputAmount" placeholder="Mobile">
+								<div class="input-group-addon"><span>.</span></div>
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="input-group">
+								<div class="input-group-addon glyphicon glyphicon-envelope"></div>
+								<input type="text" class="form-control" id="exampleInputAmount" placeholder="Email">
+								<div class="input-group-addon"><span>.</span></div>
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="input-group">
+								<div class="input-group-addon remove-padding" id="edit"><img src="images/edit.png"></div>
+								<div class="row">  
+									<div class="row"> 
+										<div class="col-md-1 col-lg-1 col-sm-1 col-xs-1 col-xs-offset-10  col-sm-offset-11 col-lg-offset-11 col-md-offset-11 remove-padding text-danger pull-right">	
+											<span class="pull-right">.</span>
+										</div>
+									</div>   
+									<div class="row remove-margin">
+										<div class="col-md-12">
+											<textarea class="form-control" id="exampleInputAmount" placeholder="details of query"></textarea>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<input type="button" class="btn btn-success text-capitalize" value="submit">		
+					</div>
+				</div>
+			</div>
+			<div class="contactUsRow1 ">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.1240420050485!2d77.31341931455806!3d28.566037693839334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce4473191ae45%3A0x70e09cd418f3f797!2sSB+Towers!5e0!3m2!1sen!2sin!4v1451562049536" frameborder="0" style="border:0"
+				allowfullscreen >
+				</iframe>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</content>
+	<!--content end-->
+	<!-- footer -->
+	<footer>
+		<div class="container">
+			<div class="col-md-4 col-lg-4 col-xs-12 col-sm-4 remove-padding-r">
+				<p>Copyright 2015 FindMeTechie.com | All rights are reseved.</p>
+			</div>
+			<div class="col-md-7 col-lg-7 col-sm-7 col-xs-12">
+				                              
+				<ul class="pull-right">
+					<li><a href="#">About us</a></li>
+					<li><a href="#">FAQ</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Contact us</a></li>
+					<li><a href="#">Sitemap</a></li>
+					<li><a href="#">Terms & Conditions</a></li>
+					<li><a href="#">Privacy Policy</a></li>
+				</ul>
+			</div>
+			<div class="col-md-1 col-lg-1 col-xs-12 col-sm-1 ">
+				<a href="#"><img src="images/facebookIcon.png"></a>
+				<a href="#"><img src="images/twitterIcon.png"></a>
+			</div>
+		</div>
+	</footer>
+	<!--footer end-->
+</body>
+</html>

@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Findmetechie</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="keywords" content="" />
+	<meta name="description" content="">
+	<!-- Mobile Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- plugin CSS -->
+	<link rel="stylesheet" href="plugin/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="plugin/jquery/jquery-ui.css">
+	<link rel="stylesheet" href="css/custom.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<script src="plugin/jquery/jquery-2.1.4.min.js"></script>
+	<script src="plugin/bootstrap/js/bootstrap.min.js"></script>
+	<!-- Common JS Initialization Files -->
+	<script src="plugin/jquery/init.js" charset="UTF-8"></script>
+	<script type="text/javascript">
+		function show_hover() {
+			$('.login-box').show();
+		
+		}
+		function hide_hover() {
+			$('.login-box').hide();
+
+		}
+	</script>
+</head>
+<body>
+	<header>
+		<div class="header-top header-new bg-white">
+			<div class="container">
+				<div class="row remove-margin">
+					<div class="col-md-9 col-lg-9 col-sm-9">
+						<nav class="navbar navbar-default">
+					    <div class="navbar-header">
+					      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					        <span class="sr-only">Toggle navigation</span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					      </button>
+					      <a class="navbar-brand" href="#"><img src="images/logo2.png" alt="Logo" ></a>
+					    </div>
+					    <div class="col-xs-6 visible-xs-block text-uppercase">
+				    	<a href="#" onMouseOver="show_hover()" onMouseFocus="show_hover()" onMouseOut="hide_hover()" id="login-hover">Login</a>
+				    </div>  
+				    <div class=" col-xs-6 hidden-sm hidden-md hidden-lg">
+				      <a href="#" class="push-5-r pull-right" id="phoneNo">+1-408-850-0236</a>
+				    </div>
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					      <ul class="nav navbar-nav navbar-right">
+					        <li ><a href="#">Hire a Techie</a></li>
+					        <li><a href="#">Build Your Own Team</a></li>
+					        <li><a href="#">Search Resumes</a></li>
+					        <li class="dropdown">
+					          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Technology <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span></a>
+					          <ul class="dropdown-menu">
+					            <li><a href="#">Ruby on Rails</a></li>
+					          </ul>
+					        </li>
+					      </ul>
+					    </div><!-- /.navbar-collapse -->
+						</nav>
+					</div>
+					<div class="col-md-3 col-lg-3 col-sm-3 hidden-xs">
+						<ul>
+				      <li class="text-uppercase "><a href="#" onMouseOver="show_hover()" onMouseOut="hide_hover()">Login</a></li>
+				      <li class="pull-right"><a href="#">+1-408-850-0236</a></li>
+			      </ul>
+					</div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+
+		<!-- Top header End-->
+		<div class="login-box">
+			<div class="container">
+				<div class="col-lg-4 col-md-4 col-sm-4">
+					<ul>
+						<label>Quick Link </label>
+						<li><a href="#">Hire a developer</a></li>
+						<li><a href="#">Apply as a developer</a></li>
+						<li><a href="#">Build your own team</a></li>
+						<li><a href="#">Search Resumes</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4">
+					<form class="form-group">
+						<label>New Customer</label>
+						<p> New to Find me techie Create an acccount to get started today. </p>
+						<input type="submit" name="login-button" value="Create New Account" class="btn btn-defoult">
+					</form>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4">
+					<form method="post" action="" class="form-group">
+						<label>Sign In</label>
+						<input type="email" name="login-mail" class="form-control">
+						<input type="password" name="login-pass" class="form-control">
+						<label><a href="">Forgot Your Password?</a></label><br>
+						<input type="submit" name="login-button" value="Sign In" class="btn btn-defoult">
+					</form>
+				</div>	
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</header>
+	<!-- header end -->
+
+	<!--content-->
+	<content>
+		<div class="search-resumeRow1">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-lg-6 pull-left col-xs-12 col-sm-6">
+						<h3 class="techie-list remove-margin">LIST OF <span class="orange-dark">TECHIES</span></h3>
+					</div>
+					<div class="col-md-6 col-lg-6 col-sm-6 text-right col-xs-12 search-resume-btn">
+						<input type="button" class="btn text-uppercase text-white" value="need fmt team to search resume" id="btn-first">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-6 col-xs-12 push-30-t remove-padding">
+						<div class="dropdown col-md-2 col-xs-6">
+							<a href="#" class="dropdown-toggle push-50-r" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Java/J2EE/Struts <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span></a>
+							<ul class="dropdown-menu">
+		            <li><a href="#">Java</a></li>
+		          </ul>
+		          <ul class="dropdown-menu">
+		            <li class="col-xs-4"><a href="#">Java</a></li>
+		          </ul>
+		        </div>
+		        <div class="dropdown col-md-2 col-xs-6">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Exp.10Yrs&above <span class="glyphicon glyphicon-chevron-down" aria-hidden="true">
+		          </span></a>
+								<ul class="dropdown-menu">
+			            <li class="col-xs-4"><a href="#">J2EE</a></li>
+			          </ul>
+						</div>
+					</div>
+				</div>
+				<div class="row push-30-t remove-margin-l remove-margin-r resume-container">
+					<div class="col-md-4 col-sm-4 bg-white resume-box">
+						<div class="row">
+							<div class="col-md-4 col-xs-4 col-sm-6">
+								<img src="images/techieResume.png">
+							</div>
+							<div class="col-md-8 col-xs-8 col-sm-6 remove-padding-l">
+								<h5 class="orange-dark text-uppercase remove-margin-t push-10">Fmt Id: 294</h5>
+								<p class="font-s12 black-light">10 Years     |     Java <br/>
+								   Banking, Health Care
+								</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12 col-xs-12 font-s12 push-20-t push-20">
+								<p class="brown">Some detail about the techi will come here in may be one liner or two. But not more than that.</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-5 col-xs-5 col-sm-12">
+								<a href="#" class="blue-light">Read more...</a>
+							</div>
+							<div class="col-md-7 col-xs-7 col-sm-12">
+								<a href="#" class="text-uppercase green-regular pull-right">Express Interest</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4 bg-white resume-box">
+						<div class="row">
+							<div class="col-md-4 col-xs-4 col-sm-6">
+								<img src="images/techieResume.png">
+							</div>
+							<div class="col-md-8 col-xs-8 col-sm-6 remove-padding-l">
+								<h5 class="orange-dark text-uppercase remove-margin-t push-10">Fmt Id: 294</h5>
+								<p class="font-s12 black-light">10 Years     |     Java <br/>
+								   Banking, Health Care
+								</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12 col-xs-12 font-s12 push-20-t push-20">
+								<p class="brown">Some detail about the techi will come here in may be one liner or two. But not more than that.</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-5 col-xs-5 col-sm-12">
+								<a href="#" class="blue-light">Read more...</a>
+							</div>
+							<div class="col-md-7 col-xs-7 col-sm-12">
+								<a href="#" class="text-uppercase green-regular pull-right">Express Interest</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4 bg-white resume-box">
+						<div class="row">
+							<div class="col-md-4 col-xs-4 col-sm-6">
+								<img src="images/techieResume.png">
+							</div>
+							<div class="col-md-8 col-xs-8 col-sm-6 remove-padding-l">
+								<h5 class="orange-dark text-uppercase remove-margin-t push-10">Fmt Id: 294</h5>
+								<p class="font-s12 black-light">10 Years     |     Java <br/>
+								   Banking, Health Care
+								</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12 col-xs-12 font-s12 push-20-t push-20">
+								<p class="brown">Some detail about the techi will come here in may be one liner or two. But not more than that.</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-5 col-xs-5 col-sm-12">
+								<a href="#" class="blue-light">Read more...</a>
+							</div>
+							<div class="col-md-7 col-xs-7 col-sm-12">
+								<a href="#" class="text-uppercase green-regular pull-right">Express Interest</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4 bg-white resume-box">
+						<div class="row">
+							<div class="col-md-4 col-xs-4 col-sm-6">
+								<img src="images/techieResume.png">
+							</div>
+							<div class="col-md-8 col-xs-8 col-sm-6 remove-padding-l">
+								<h5 class="orange-dark text-uppercase remove-margin-t push-10">Fmt Id: 294</h5>
+								<p class="font-s12 black-light">10 Years     |     Java <br/>
+								   Banking, Health Care
+								</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12 col-xs-12 font-s12 push-20-t push-20">
+								<p class="brown">Some detail about the techi will come here in may be one liner or two. But not more than that.</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-5 col-xs-5 col-sm-12">
+								<a href="#" class="blue-light">Read more...</a>
+							</div>
+							<div class="col-md-7 col-xs-7 col-sm-12">
+								<a href="#" class="text-uppercase green-regular pull-right">Express Interest</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4 bg-white resume-box">
+						<div class="row">
+							<div class="col-md-4 col-xs-4 col-sm-6">
+								<img src="images/techieResume.png">
+							</div>
+							<div class="col-md-8 col-xs-8 col-sm-6 remove-padding-l">
+								<h5 class="orange-dark text-uppercase remove-margin-t push-10">Fmt Id: 294</h5>
+								<p class="font-s12 black-light">10 Years     |     Java <br/>
+								   Banking, Health Care
+								</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12 col-xs-12 font-s12 push-20-t push-20">
+								<p class="brown">Some detail about the techi will come here in may be one liner or two. But not more than that.</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-5 col-xs-5 col-sm-12">
+								<a href="#" class="blue-light">Read more...</a>
+							</div>
+							<div class="col-md-7 col-xs-7 col-sm-12">
+								<a href="#" class="text-uppercase green-regular pull-right">Express Interest</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4 bg-white resume-box">
+						<div class="row">
+							<div class="col-md-4 col-xs-4 col-sm-6">
+								<img src="images/techieResume.png">
+							</div>
+							<div class="col-md-8 col-xs-8 col-sm-6 remove-padding-l">
+								<h5 class="orange-dark text-uppercase remove-margin-t push-10">Fmt Id: 294</h5>
+								<p class="font-s12 black-light">10 Years     |     Java <br/>
+								   Banking, Health Care
+								</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12 col-xs-12 font-s12 push-20-t push-20">
+								<p class="brown">Some detail about the techi will come here in may be one liner or two. But not more than that.</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-5 col-xs-5 col-sm-12">
+								<a href="#" class="blue-light">Read more...</a>
+							</div>
+							<div class="col-md-7 col-xs-7 col-sm-12">
+								<a href="#" class="text-uppercase green-regular pull-right">Express Interest</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-7 col-xs-12 col-md-offset-2 col-sm-9 col-sm-offset-1 project-qoutes bg-white">
+						<div class="col-md-1 col-xs-1 col-xs-offset-11 col-md-offset-10 col-sm-1 col-sm-offset-10 project-qoutes-icon remove-padding">x</div>
+						<div class="project-qoutes-text">
+							<h5>If you have a predefined project <a href="#" class="blue-light">Click Here</a> to get the Quotes </h5>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="clearfix"></div>	
+	</content>
+	<!--content end-->
+
+	<footer>
+		<div class="container footer-color">
+			<div class="row remove-margin">
+				<div class="col-md-4 col-lg-4 col-xs-12 col-sm-4 remove-padding-r">
+					<p>Copyright 2015 FindMeTechie.com | All rights are reseved.</p>
+				</div>
+				<div class="col-md-7 col-lg-7 col-sm-7 col-xs-12">
+					<ul class="pull-right remove-padding-t">
+						<li><a href="#">About us</a></li>
+						<li><a href="#">FAQ</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Contact us</a></li>
+						<li><a href="#">Sitemap</a></li>
+						<li><a href="#">Terms & Conditions</a></li>
+						<li><a href="#">Privacy Policy</a></li>
+					</ul>
+				</div>
+				<div class="col-md-1 col-lg-1 col-xs-12 col-sm-1 push-5-t">
+					<a href="#"><img src="images/facebookIcon.png"></a>
+					<a href="#"><img src="images/twitterIcon.png"></a>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</footer>
+	<!--footer end-->
+
+</body>
+</script>
