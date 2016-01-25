@@ -570,6 +570,9 @@ createAccount
 .createAccountRow1 .techiProfileRow1 .dropdown{border-bottom: 1px solid #c8c8c8; position: absolute; width: 100%;}
 .createAccountRow1 .techiProfileRow1  #dropdown-menu-relative{position: relative !important;}
 .createAccountRow1 .form-group .workseeker input span{float: right;}
+.createAccountRow1 .col-lg-8 textarea {height: auto !important; border: 0;}
+.createAccountRow1 .techiProfileRow1 .col-sm-12 {padding-top: 8px;}
+.createAccountRow1 .techiProfileRow1 .form-control {height: 20px;font-size: 16px;padding: 0;}
 
 
 /*************************************************************************************
@@ -841,7 +844,11 @@ Mobiles
 .createAccountRow1 .push-30-r{margin-right: 0px;}
 .createAccountRow1 .workseeker #homeRow2-detail-label{text-align: left;}
 .createAccountRow1 #text-xs-left{text-align: left;}
+.createAccountRow1 .techiProfileRow1 .form-control {height: 20px;}
 .createAccountRow1 .techiProfileRow1 img {padding-right: 10px;}
+.createAccountRow1 .employer-margin-bottom {margin-bottom: 20px;}
+.createAccountRow1 .mobile-width {width: 250px !important;}
+.createAccountRow1 .employee-name, .upload-file {padding: 0;}
 
 .hireTechieRow1 h1{ font-size: 22px;}
 .hireTechieRow2 .padding-75-l{padding-left: 15px;}
