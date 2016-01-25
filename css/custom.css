@@ -679,14 +679,15 @@ Tablets
   .search-resumeRow1 .resume-box {margin-right: 25px;width: 31%;}
   .search-resumeRow1 .resume-box .green-regular {float: left !important; margin-top: 10px;}
 
-  .padding-75-l{padding-left: 62px;}
-  .padding-135-l{padding-left: 125px;}
-  .workseeker .col-sm-4 .com-sm-12{padding: 0px;}
-  .techiProfileRow1 .push-30-r{margin-right: 0px;}
-  .techiProfileRow1 .profileInfo{padding: 20px !important; min-height: 310px;}
+  .createAccountRow1 .padding-75-l{padding-left: 62px;}
+  .createAccountRow1 .padding-135-l{padding-left: 125px;}
+  .createAccountRow1 .workseeker .col-sm-4 .com-sm-12{padding: 0px;}
+  .createAccountRow1 .techiProfileRow1 .push-30-r{margin-right: 0px;}
+  .createAccountRow1 .techiProfileRow1 .profileInfo{padding: 20px !important; min-height: 620px;}
   .createAccountRow1 h3{margin-top: 5px;}
-  .createAccountRow1 .form-group .workseeker input{width:140px; margin-bottom: 19px;}
-  .createAccountRow1 .techiProfileRow1 .dropdown{width:140px;}
+  .createAccountRow1 .techiProfileRow1 img{padding-right: 0px;}
+  .createAccountRow1 .form-group .workseeker input{width:135px; margin-bottom: 19px;}
+  .createAccountRow1 .techiProfileRow1 .dropdown{width:135px;}
   .createAccountRow1 .workseeker #homeRow2-detail-label{text-align: left;}
 
   .hireTechieRow2 .logoRow1 .left-logo{padding:10px 20px;}
@@ -844,11 +845,12 @@ Mobiles
 .createAccountRow1 .form-group .workseeker input{width:150px; margin-bottom: 20px;}
 .createAccountRow1 .techiProfileRow1 .dropdown{width:150px;}
 .createAccountRow1 .form-group input{width:100%;}
-.createAccountRow1 .form-group .btn-success{margin-bottom:10px; margin-top: 0px;}
+.createAccountRow1 .form-group .btn-success{margin-bottom:50px; margin-top: 0px;}
 .createAccountRow1 .push-30-r{margin-right: 0px;}
 .createAccountRow1 .workseeker #homeRow2-detail-label{text-align: left;}
 .createAccountRow1 #text-xs-left{text-align: left;}
 .createAccountRow1 .techiProfileRow1 .form-control {height: 20px;}
+.createAccountRow1 .techiProfileRow1 .col-xs-3{width: 57px}
 .createAccountRow1 .techiProfileRow1 img {padding-right: 10px;}
 .createAccountRow1 .employer-margin-bottom {margin-bottom: 20px;}
 .createAccountRow1 .mobile-width {width: 250px !important;}
