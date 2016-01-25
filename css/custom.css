@@ -78,6 +78,9 @@ span img {padding: 0px 10px;}
 .padding-10-t{
     padding-top: 10px !important;
 }
+.padding-10-b{
+    padding-bottom: 10px !important;
+}
 .padding-20-b{
     padding-bottom: 20px !important;
 }
@@ -141,8 +144,8 @@ span img {padding: 0px 10px;}
 .push-30-t {
     margin-top: 30px;
 }
-.push-26-t {
-    margin-top: 26px;
+.push-22-t {
+    margin-top: 22px;
 }
 .push-30-r {
     margin-right: 30px;
@@ -296,7 +299,7 @@ span img {padding: 0px 10px;}
     font-size: 24px !important;
 }
 .text-white{
-    color: #fff;
+    color: #fff !important;
 }
 .bg-white {
 	background-color: #FFFFFF;
@@ -304,6 +307,7 @@ span img {padding: 0px 10px;}
 .gray-light {
 	color: #cbcaca !important;
 }
+.home-footer-bg{background-color: #fafafa !important;}
 .createAccount-dropdown-color{color: #cbcaca !important;}
 .bg-hiredevloper{background-color: #ebebeb;}
 .text-red{color:#e84933;}
@@ -314,6 +318,7 @@ span img {padding: 0px 10px;}
 .black-light {color: #6c6c6c;}
 .brown {color: #a6a6a6;}
 .footer-color {color: #f3f3f3 !important;}
+.full-width-input{width:100%;}
 
 /*************************************************************************************
 Header
@@ -439,7 +444,7 @@ Homepage
 /*************************************************************************************
 Footer
 ************************************************************************************* */
-footer {background-color: #fafafa;margin: 0 30px;font-size: 12px;padding: 15px;}
+footer {background-color: #f3f3f3;margin: 0 30px;font-size: 12px;padding: 15px;}
 footer p{color: #4a4a4a; font-family: "Lato-Regular";}
 footer .col-md-4 {margin-top: 5px;}
 footer .col-md-7 {padding: 0;margin-top: 5px;}
@@ -519,6 +524,7 @@ search resume
 .search-resumeRow1 .resume-box:nth-child(3n) { margin-right: 0; }
 .search-resumeRow1 .techie-list {border-bottom: 1px solid ;width: 41%;padding-bottom: 5px; color: #acacac;}
 .search-resumeRow1 #btn-first {background-color: #104d76;}
+.search-resumeRow1 #btn-first:hover{color: #fff;}
 .search-resumeRow1 .dropdown .dropdown-toggle {border-bottom: 1px solid ;width: 41%;padding-bottom: 5px; color: #0467aa;}
 .search-resumeRow1 .dropdown .dropdown-toggle span {color: #adadad;}
 .search-resumeRow1 .project-qoutes {border-top: 2px solid #ec802b;padding: 10px 100px 10px 80px;}
@@ -532,7 +538,7 @@ createAccount
 .border-bottom-label{border-bottom: 1px solid #a3a3a3;}
 .border-bottom-form{border-bottom: 1px solid #c8c8c8;}
 .createAccountRow1{ background: #ebebeb;}
-.createAccountRow1 h3{font-size: 14px; color: #104d76; padding-bottom: 10px;}
+.createAccountRow1 h3{font-size: 14px; color: #104d76; padding-bottom: 8px;}
 .createAccountRow1 h6{color: #626262;font-size: 14px; display: inline;}
 .createAccountRow1 #file-upload{display: inline;  }
 .createAccountRow1 .btn-file {position: relative;overflow: hidden;}
@@ -584,12 +590,14 @@ hire a techie
 ************************************************************************************* */
 
 .hireTechieRow2 .select-categry a{color: #d4d4d4 !important;}
+.hireTechieRow2 input { color: #104d76; padding-bottom: 10px;}
+.hireTechieRow2 input::-moz-placeholder{color: #999999;}
 .hireTechieRow2 .logoRow1 .left-logo{padding:20px 50px;}
 .hireTechieRow2 .logoRow1 .right-logo{padding:20px;}
 .hireTechieRow2 .logoRow2 .left-logo{padding:10px 40px 30px;}
 .hireTechieRow2 .logoRow2 .right-logo{padding:30px;}
 .hireTechieRow2 .logoRow3 .left-logo{padding:30px;}
-.hireTechieRow2 .logoRow3 .right-logo{padding:20px;}
+.hireTechieRow2 .logoRow3 .right-logo{padding:20px 40px;}
 .hireTechieRow2 .logoRow4 .left-logo{padding: 0px 30px 0px;}
 .hireTechieRow2 .logoRow4 .right-logo{padding:10px 40px 10px;}
 .hireTechieRow2 .select-categry .radio{color: #d4d4d4;}
@@ -616,6 +624,9 @@ medium desktop
   .hireTechieRow2 .padding-75-l{padding-left: 20px;}
   .hireTechieRow2 .padding-75-r{padding-right: 20px;}
   .hireTechieRow2 .push-26-t{margin-top: 0px}
+  .hireTechieRow2 .logoRow1 .right-logo{padding: 15px;}
+  .hireTechieRow2 .logoRow3 .right-logo{padding: 18px;}
+  .hireTechieRow2 .logoRow1 .left-logo{padding:20px 47px;}
 }
 
 /*************************************************************************************
@@ -691,7 +702,7 @@ Tablets
   .createAccountRow1 .workseeker #homeRow2-detail-label{text-align: left;}
 
   .hireTechieRow2 .logoRow1 .left-logo{padding:10px 20px;}
-  .hireTechieRow2 .logoRow1 .right-logo{padding:10px; margin-top: 25px;}
+  .hireTechieRow2 .logoRow1 .right-logo{padding:10px; margin-top: 20px;}
   .hireTechieRow2 .logoRow2 .left-logo{padding:10px 20px;}
   .hireTechieRow2 .logoRow2 .right-logo{padding:10px; margin-top: 20px;}
   .hireTechieRow2 .logoRow3 .left-logo{padding:15px 15px 33px;}
@@ -708,7 +719,7 @@ Tablets
   .hireTechieRow2 .padding-75-r{padding-right: 20px;}
   .hireTechieRow2 .col-sm-7 {width:63%;}
   .hireTechieRow2 .padding-20-l{padding-left: 10px;}
-
+  .hireTechieRow2 .push-5-l{margin-left: -5px;}
 
 
 }
@@ -745,7 +756,7 @@ Mobiles
   header .navbar-header .mobile-login a{width:20%;}
   header .header-top .col-xs-6 #login-hover:hover{background-color: #74818d; padding-bottom: 20%; padding-top: 5%;}
   header .header-top #phoneNo{color: #65b3e9;}
-  header .login-box{width:93%; left: 3.5%; top: 92px; opacity: 1;}
+  header .login-box{width:93%; left: 11px; top: 92px; opacity: 1;}
   header .login-box label{text-align: center; font-size: 18px;}
   header .login-box .col-lg-4{ padding: 0px 50px 20px; border-right:none;}
   header .login-box ul{padding-left: 0px;}
@@ -842,8 +853,9 @@ Mobiles
 .createAccountRow1 .form-group .workseeker input span{float: right;}
 .createAccountRow1 .submit-form{padding: 20px;}
 .createAccountRow1 .form-group #email{width:100%;}
-.createAccountRow1 .form-group .workseeker input{width:150px; margin-bottom: 20px;}
-.createAccountRow1 .techiProfileRow1 .dropdown{width:150px;}
+.createAccountRow1 .form-group .workseeker .col-xs-4{width:75px;}
+.createAccountRow1 .form-group .workseeker input{width:135px; margin-bottom: 20px;}
+.createAccountRow1 .techiProfileRow1 .dropdown{width:135px;}
 .createAccountRow1 .form-group input{width:100%;}
 .createAccountRow1 .form-group .btn-success{margin-bottom:50px; margin-top: 0px;}
 .createAccountRow1 .push-30-r{margin-right: 0px;}
@@ -868,37 +880,37 @@ Mobiles
 
 }
 @media only screen and (min-width: 640px) and (max-width: 767px){
-  .contactUsRow1-caption .col-md-1{ padding-right: 0px; padding-left: 6px;}
-  .contactUsRow1-caption .col-md-1 span {float: none !important;}
-  .homeRow2-detail .tab-content .col-xs-12{width: 50%;}
-  .homeRow2-detail .col-xs-2{width:7.7%;}
-  .hireTechieRow2 .hireTechilogo{width: 50%; left:25%;}
-  .hireTechieRow2 .logoRow1 .left-logo{padding: 20px 40px;}
-  .hireTechieRow2 .logoRow1 .right-logo{padding: 20px; margin-top: 10px;}
+
+.contactUsRow1-caption .col-md-1{ padding-right: 0px; padding-left: 6px;}
+.contactUsRow1-caption .col-md-1 span {float: none !important;}
+.homeRow2-detail .tab-content .col-xs-12{width: 50%;}
+.homeRow2-detail .col-xs-2{width:7.7%;}
+.hireTechieRow2 .hireTechilogo{width: 50%; left:25%;}
+.hireTechieRow2 .logoRow1 .left-logo{padding: 20px 40px;}
+.hireTechieRow2 .logoRow1 .right-logo{padding: 20px; margin-top: 10px;}
 }
 @media only screen and (min-width: 480px) and (max-width: 639px) {
 
-  header .login-box{left: 11px; opacity: 1;}
-  .homeRow1 .col-md-4 img{width:12%;}
-  .homeRow1 .col-md-4 button{width:280px;}
-  .homeRow2-detail .col-xs-12{margin-bottom: 15px;}
-  .homeRow2-detail .tab-content .col-xs-12{width: 50%;}
-  .homeRow2-detail h2{margin: 0px;}
-  .homeRow2-detail #users-logo{margin-left: 20px; margin-top: 0px;}
-  .homeRow2-detail .tab-content .col-xs-12:first-child{padding-right: 20px;}
-  .homeRow2-detail .tab-content .col-xs-12:last-child{padding-left: 20px;}
+.homeRow1 .col-md-4 img{width:12%;}
+.homeRow1 .col-md-4 button{width:280px;}
+.homeRow2-detail .col-xs-12{margin-bottom: 15px;}
+.homeRow2-detail .tab-content .col-xs-12{width: 50%;}
+.homeRow2-detail h2{margin: 0px;}
+.homeRow2-detail #users-logo{margin-left: 20px; margin-top: 0px;}
+.homeRow2-detail .tab-content .col-xs-12:first-child{padding-right: 20px;}
+.homeRow2-detail .tab-content .col-xs-12:last-child{padding-left: 20px;}
 
-  .techiProfileRow1 h2{font-size: 18px !important;}
-  .techiProfileRow1 .push-50-l{margin-left: 0px !important;}
-  .techiProfileRow1 .profileInfo{padding: 15px !important;}
-  
-  .hireTechieRow2 .logoRow4 .right-logo{ width:50%;}
-  .hireTechieRow2 .hireTechilogo{width: 70%; left:15%;}
+.techiProfileRow1 h2{font-size: 18px !important;}
+.techiProfileRow1 .push-50-l{margin-left: 0px !important;}
+.techiProfileRow1 .profileInfo{padding: 15px !important;}
+
+.hireTechieRow2 .logoRow4 .right-logo{ width:50%;}
+.hireTechieRow2 .hireTechilogo{width: 70%; left:15%;}
 }
 
 @media only screen and (min-width: 414px) and (max-width: 479px){
-    .hireTechieRow2 .logoRow1 .right-logo{margin-top: 20px; width:40%;}
-    .hireTechieRow2 .logoRow4 .right-logo{ width:40%;}
+.hireTechieRow2 .logoRow1 .right-logo{margin-top: 20px; width:40%;}
+.hireTechieRow2 .logoRow4 .right-logo{ width:40%;}
 }
 
 
