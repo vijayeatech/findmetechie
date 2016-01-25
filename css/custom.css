@@ -32,6 +32,10 @@ span img {padding: 0px 10px;}
 .push-5 {
     margin-bottom: 5px;
 }
+
+.padding-75-l{
+    padding-left: 75px;
+}
 .padding-75-r{
     padding-right: 75px;
 }
@@ -612,8 +616,6 @@ medium desktop
   .hireTechieRow2 .padding-75-l{padding-left: 20px;}
   .hireTechieRow2 .padding-75-r{padding-right: 20px;}
   .hireTechieRow2 .push-26-t{margin-top: 0px}
-
-
 }
 
 /*************************************************************************************
@@ -683,11 +685,11 @@ Tablets
   .techiProfileRow1 .push-30-r{margin-right: 0px;}
   .techiProfileRow1 .profileInfo{padding: 20px !important; min-height: 310px;}
   .createAccountRow1 h3{margin-top: 5px;}
-  .createAccountRow1 .form-group .workseeker input{width:140px;}
+  .createAccountRow1 .form-group .workseeker input{width:140px; margin-bottom: 19px;}
   .createAccountRow1 .techiProfileRow1 .dropdown{width:140px;}
   .createAccountRow1 .workseeker #homeRow2-detail-label{text-align: left;}
 
-  .hireTechieRow2 .logoRow1 .left-logo{padding:20px;}
+  .hireTechieRow2 .logoRow1 .left-logo{padding:10px 20px;}
   .hireTechieRow2 .logoRow1 .right-logo{padding:10px; margin-top: 25px;}
   .hireTechieRow2 .logoRow2 .left-logo{padding:10px 20px;}
   .hireTechieRow2 .logoRow2 .right-logo{padding:10px; margin-top: 20px;}
@@ -695,10 +697,12 @@ Tablets
   .hireTechieRow2 .logoRow3 .right-logo{padding:10px;}
   .hireTechieRow2 .logoRow4 .left-logo{padding:10px 40px;}
   .hireTechieRow2 .logoRow4 .left-logo{padding: 10px;}
-  .hireTechieRow2 .logoRow4 .right-logo{padding:10px;}
+  .hireTechieRow2 .logoRow4 .left-logo a.push-50 {margin-bottom: 20px;}
+  .hireTechieRow2 .logoRow4 .right-logo{padding:10px 15px;}
   .hireTechieRow2 .padding-20-l{padding-left: 0px;}
   .hireTechieRow2 .padding-10-r {padding-right: 0px !important;}
   .hireTechieRow2 .push-26-t{margin-top: 12px;}
+  .hireTechieRow2 .push-50{margin-bottom: 0px;}
   .hireTechieRow2 .padding-75-l{padding-left: 20px;}
   .hireTechieRow2 .padding-75-r{padding-right: 20px;}
   .hireTechieRow2 .col-sm-7 {width:63%;}
@@ -866,6 +870,9 @@ Mobiles
   .contactUsRow1-caption .col-md-1 span {float: none !important;}
   .homeRow2-detail .tab-content .col-xs-12{width: 50%;}
   .homeRow2-detail .col-xs-2{width:7.7%;}
+  .hireTechieRow2 .hireTechilogo{width: 50%; left:25%;}
+  .hireTechieRow2 .logoRow1 .left-logo{padding: 20px 40px;}
+  .hireTechieRow2 .logoRow1 .right-logo{padding: 20px; margin-top: 10px;}
 }
 @media only screen and (min-width: 480px) and (max-width: 639px) {
 
@@ -884,8 +891,7 @@ Mobiles
   .techiProfileRow1 .profileInfo{padding: 15px !important;}
   
   .hireTechieRow2 .logoRow4 .right-logo{ width:50%;}
-  .hireTechieRow2 .hireTechilogo{width: 70%; left:15%; }
-
+  .hireTechieRow2 .hireTechilogo{width: 70%; left:15%;}
 }
 
 @media only screen and (min-width: 414px) and (max-width: 479px){
